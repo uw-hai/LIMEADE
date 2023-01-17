@@ -30,5 +30,5 @@ This code is parallelized; to be properly executed, the code should be converted
 ### Experiment Code (experiment.ipynb)
 This notebook contains the main code for the image domain experiment, as summarized above and detailed in our paper. To run this code, the COCO dataset must have been downloaded already, and preprocessing.ipynb must have been run as well. For this code to run, be sure that the the paths to the COCO data, as well as the computed embeddings, are all correct. In order to analyze the results of the experiment, the output JSON files for each iteration must be compiled and analyzed. Note that the baseline score on the test data is given by `new_test_score_added_instance`, whereas the LIMEADE scores on the test data are given by `new_test_scores_neighbors` (an array that contains the results across all `n_neighbor` and `neighbors_weight` configurations.)
 
-### Questions
+## Questions
 If you have any questions about this code, feel free to email Benjamin Lee at [bcgl@cs.washington.edu](mailto:bcgl@cs.washington.edu).
